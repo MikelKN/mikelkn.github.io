@@ -2,23 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/MikelKN/mikelkn.github.io.git/</loc>
+    <loc>https://mikelkn.github.io/</loc>
     <lastmod>2025-01-03T13:03:12-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/MikelKN/mikelkn.github.io.git/publications/</loc>
+    <loc>https://mikelkn.github.io/publications/</loc>
     <lastmod>2025-01-03T13:03:12-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/MikelKN/mikelkn.github.io.git/updates/</loc>
+    <loc>https://mikelkn.github.io/updates/</loc>
     <lastmod>2025-01-03T13:03:12-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/MikelKN/mikelkn.github.io.git/about-me/</loc>
-    <lastmod>2025-01-03T04:21:49-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/MikelKN/mikelkn.github.io.git/gallery/</loc>
+    <loc>https://mikelkn.github.io/gallery/</loc>
     <lastmod>2022-06-25T18:35:46+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/MikelKN/mikelkn.github.io.git/categories/</loc>
+    <loc>https://mikelkn.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/MikelKN/mikelkn.github.io.git/tags/</loc>
+    <loc>https://mikelkn.github.io/tags/</loc>
   </url>
 </urlset>

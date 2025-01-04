@@ -1,4 +1,4 @@
-baseURL: https://github.com/MikelKN/mikelkn.github.io.git
+baseURL: "https://mikelkn.github.io/"
 languageCode: en-us
 title: Myikel's New Site
 theme: "hugo-profile"
@@ -13,7 +13,7 @@ outputs:
     - "HTML"
     - "RSS" 
 
-Paginate: 3
+Paginate: 10
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
 # googleAnalytics: G-MEASUREMENT_ID
