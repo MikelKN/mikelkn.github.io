@@ -1,6 +1,6 @@
 baseURL: "https://mikelkn.github.io/"
 languageCode: en-us
-title: Myikel's New Site
+title: Mikel's New Site
 theme: "hugo-profile"
 
 
@@ -143,7 +143,7 @@ params:
       [Black in AI 2024](https://www.blackinai.org/); [Women in Machine Learning 2024](https://neurips.cc/virtual/2023/affinity-workshop/66602), and Currently serve as Progam committee member for [Towards a Safer Web for Women](https://tsww25.github.io/) at [WebConf 2025](https://www2025.thewebconf.org/) workshop.
       I am currently a Graduate Research Assistant for the Center of Excellence in AIML [CoE-AIML](https://www.dod-coe4ai-ml.org/) 
       advised by [Dr. Danda Rawat](https://www.rawatonline.com/).
-    image: "/mikel_headshot.JPG"
+    image: "mikel_headshot.JPG"
     bottomImage:
       enable: true
     roundImage: False # Make hero image circular | default false
@@ -174,11 +174,13 @@ params:
   About:
     enable: true
     title: "Accomplishments 🎯"
-    # image: "fav_mikel.png"
+    image: "nvidia.JPG"
     content: |-
-      Amazon AWS [PHD Research Fellowship](https://www.amazon.science/news-and-features/amazon-and-howard-university-announce-inaugural-fellowship-gift-project-recipients) recipient 2023-2024
+      Selected as [Machine Learning ad Systems Rising Star by ML Commons 2024](https://mlcommons.org/2024/06/2024-mlc-rising-stars/). Presented research at Nvidia HQ in Santa Clara, CA.      
 
-      [APPLE TMCF](https://www.tmcf.org/students-alumni/corp-scholar-programs/apple-hbcu-scholars/) Scholarship Recipient 2023-2024
+      Amazon AWS [PHD Research Fellowship](https://www.amazon.science/news-and-features/amazon-and-howard-university-announce-inaugural-fellowship-gift-project-recipients) recipient 2023-2024; Awarded 69,000 for developing my PhD idea
+
+      [APPLE TMCF](https://www.tmcf.org/students-alumni/corp-scholar-programs/apple-hbcu-scholars/) Scholarship Recipient 2023-2024: Awarded $15000 for PHD research advancement.
 
       Third Place poster Winner at Richard Tapia Conference 2023. Poster titled: Towards Improving Chatbots for Multilingual conversations
 
@@ -198,7 +200,18 @@ params:
     title: "Experience 🎒"
     items:
       - job: "Graduate Research Assistant"
-        company: "Howard University"
+        company: "CoEAIML Lab"
+        companyUrl: "https://www.dod-coe4ai-ml.org/"
+        date: "Aug 2024 - Preset"
+        featuredLink:
+          enable: true
+          url: "https://www.dod-coe4ai-ml.org/"
+        content: |
+          - Ph.D. dissertation topic: Centers around Assessing the relationship between hate speech and fake news to build a novel explainable system for detecting them from a multimodal text and image perspective. .
+          - Skills Acquired: Statistical, sentiment, and correlation analysis and inferencing, Machine and deep learning for Image and Text processing; Explainable AI, Adversarial ML.
+
+      - job: "Graduate Research Assistant"
+        company: "ABLab"
         companyUrl: "https://sites.google.com/view/affective-biometrics-lab-resea"
         date: "May 2020 - May 2024"
         featuredLink:
@@ -211,7 +224,9 @@ params:
       - job: "Machine Learning Engineering Intern"
         company: "Apple"
         date: "June 2023 - August 2023"
-        content: "Build a system for evaluating Siri dialogues integration with LLM."
+        content: |
+         - Build a system for evaluating Siri dialogues integration with LLM.
+         - Skills acquired: Python; data extraction and preprocessing, Software creation, Testing, Error Handling, and debugging; Version control and code management; Data Serialization and Parsing using NLP; API integration, request and response handling, Software Documentation, Prompt Engineering, Generative AI and LLM.
 
       - job: "Web development Apprentice"
         company: "Bloomberg"
@@ -219,7 +234,9 @@ params:
         featuredLink:
           enable: true
           url: "https://github.com/Bloomberg-Summer-BEST/best-summer-project"
-        content: Designed and built a website, “HBCU Tech Journeys” to help HBCU students network, and collaborate
+        content: |
+          - Designed and built a website, “HBCU Tech Journeys” to help HBCU students network, and collaborate.
+          - Skills acquired: CSS, HTML, Web Design, and Hosting: WordPress and GitHub Pages.    
 
       - job: "Data Scientist Intern"
         company: "Amazon"
@@ -227,7 +244,17 @@ params:
         content: |
           - Build a customer subscription database using DataGrip to decide on subscription services available to customers, thus reducing inquiry and operation time by 20% as compared to standard web scraping techniques
           - Annotated data used to create the multiclass dataset and Used it to build model for assessing customer sentiment thus facilitating user satisfaction and retention
-
+      
+      - job: "Kaggle conpetitor and content creator"
+        company: "Kaggle"
+        date: "June 2020 - present"
+        featuredLink:
+          enable: true
+          url: "https://www.kaggle.com/mikelkn"
+        content: |
+          - Women in Data Science Datathon (2024): Equity in HealthCare: Task to predict if the patients received metastatic cancer diagnosis within 90 days of screening.  Used ML-based data cleaning and supervised ML -CatBoosting Model. (Rank: top 35%).
+          - Santander Customer Transaction Prediction (2019): for predicting if a customer will make a transaction. Used the Light gradient boosting method with 15-fold cross-validation and achieved a score of 90.07%. (Rank: Top 37%).
+          - Women in Data Science Datathon (2019): An image classification problem to determining the chances of deforestation due to oil palm fields. Used Deep and Transfer learning techniques yield 79% prediction accuracy. (Rank: top 87%).    
 
   # Education
   education:
@@ -278,7 +305,7 @@ params:
   footer:
     recentPosts:
       path: "contact"
-      count: 3
+      count: 4
       title: Recent Posts
       enable: true
       disableFeaturedImage: false
