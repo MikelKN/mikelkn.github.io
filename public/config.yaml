@@ -1,0 +1,345 @@
+baseURL: "https://mikelkn.github.io/"
+languageCode: en-us
+title: Mikel's New Site
+theme: "hugo-profile"
+
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS" 
+
+Paginate: 10
+enableRobotsTXT: true
+# disqusShortname: your-disqus-shortname
+# googleAnalytics: G-MEASUREMENT_ID
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: Publications
+      name: Publications
+      title: Publications
+      url: /Publications
+      weight: 1
+    - identifier: Updates
+      name: Updates
+      title: Updates
+      url: /Updates
+      weight: 2
+    - identifier: gallery
+      name: Gallery
+      title: Gallery
+      url: /gallery
+      weight: 3
+    
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Mikel's Profile"
+  description: Text about my cool site
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/fav_mikel.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  # color:
+  #   textColor: "#343a40"
+  #   secondaryTextColor: "#6c757d"
+  #   textLinkColor: "#007bff"
+  #   backgroundColor: "#eaedf0"
+  #   secondaryBackgroundColor: "#64ffda1a"
+  #   primaryColor: "#007bff"
+  #   secondaryColor: "#f8f9fa"
+
+  #   darkmode:
+  #     textColor: "#e4e6eb"
+  #     secondaryTextColor: "#b0b3b8"
+  #     textLinkColor: "#ffffff"
+  #     backgroundColor: "#18191a"
+  #     secondaryBackgroundColor: "#212529"
+  #     primaryColor: "#ffffff"
+  #     secondaryColor: "#212529"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Mikel's Profile" # Brand name for the brand | default is the title variable
+    disableSearch: false
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    # intro: "Hello, I'm"
+    title: "Mikel K. Ngueajio 🙋🏽‍♀️"
+    # subtitle: "Hello "
+    content: | 
+      I am a fourth-year Ph.D. student in Computer Science at Howard University in Washington, DC, with a strong passion for leveraging Machine Learning to better understand human language and enhance communication. My doctoral research focuses on the relationship between hate speech and fake news, with the aim of designing robust and explainable AI systems for detecting and mitigating these societal challenges effectively and transparently. Throughout my academic journey, I have collaborated on projects with leading organizations, including Amazon, Google, the Us national Geospcail Agency, and Virginia Tech with work published at top [AI venues](https://scholar.google.com/citations?user=XPwyeRYAAAAJ&hl=en). 
+      I have served as conference reviewer for the 
+      [Black in AI 2024](https://www.blackinai.org/); [Women in Machine Learning 2024](https://neurips.cc/virtual/2023/affinity-workshop/66602), and Currently serve as Progam committee member for [Towards a Safer Web for Women](https://tsww25.github.io/) at [WebConf 2025](https://www2025.thewebconf.org/) workshop.
+      I am currently a Graduate Research Assistant for the Center of Excellence in AIML [CoE-AIML](https://www.dod-coe4ai-ml.org/) 
+      advised by [Dr. Danda Rawat](https://www.rawatonline.com/).
+    image: "mikel_headshot.JPG"
+    bottomImage:
+      enable: true
+    roundImage: False # Make hero image circular | default false
+    button:
+      enable: true
+      name: "Resume"
+      url: "https://1drv.ms/b/s!Aiw-ERjdEy0-jPdWNXyHgGFVOADYkA?e=onp5kM"
+      download: true
+      newPage: true
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/mikelngueajio/
+        - icon: fa fa-graduation-cap
+          url: https://scholar.google.com/citations?user=XPwyeRYAAAAJ&hl=en
+        - icon: fab fa-github
+          url: https://github.com/MikelKN
+        - icon: fab fa-x-twitter
+          url: https://x.com/KNew_Mikel
+        - icon: fab fa-medium
+          url: https://medium.com/@MickyDjiof
+
+      # customIcons:
+      #   - icon: fa fa-graduation-cap
+      #     url: "https://example.com"
+
+  #Accomplishement
+  About:
+    enable: true
+    title: "Accomplishments 🎯"
+    image: "nvidia.JPG"
+    content: |-
+      Selected as [Machine Learning ad Systems Rising Star by ML Commons 2024](https://mlcommons.org/2024/06/2024-mlc-rising-stars/). Presented research at Nvidia HQ in Santa Clara, CA.      
+
+      Amazon AWS [PHD Research Fellowship](https://www.amazon.science/news-and-features/amazon-and-howard-university-announce-inaugural-fellowship-gift-project-recipients) recipient 2023-2024; Awarded 69,000 for developing my PhD idea
+
+      [APPLE TMCF](https://www.tmcf.org/students-alumni/corp-scholar-programs/apple-hbcu-scholars/) Scholarship Recipient 2023-2024: Awarded $15000 for PHD research advancement.
+
+      Third Place poster Winner at Richard Tapia Conference 2023. Poster titled: Towards Improving Chatbots for Multilingual conversations
+
+      Black[ComputerHer](https://blackcomputeher.org/) Fellow 2022-2023
+
+      First Place Poster winner at [ADMI Conference 2022](http://www.admiusa.org/admi2024/)
+
+      First Place Innovator Award Recipient at the [2021 CMD-IT Innovation Challenge](https://cmd-it.org/2021-news/2021-cmd-it-innovation-challenge-award-winners/)
+
+      First place Research Poster Winner at the [2021 CCSC-Eastern Regional Conference](https://sites.google.com/site/ccsceastern/Home?authuser=0)
+
+      First place Research Poster Winner at the [2021 CCSC-Mid-Atlantic Regional Conference](https://sites.google.com/site/ccscmidatlantic/home)
+
+  # Experience
+  experience:
+    enable: true
+    title: "Experience 🎒"
+    items:
+      - job: "Graduate Research Assistant"
+        company: "CoEAIML Lab"
+        companyUrl: "https://www.dod-coe4ai-ml.org/"
+        date: "Aug 2024 - Preset"
+        featuredLink:
+          enable: true
+          url: "https://www.dod-coe4ai-ml.org/"
+        content: |
+          - Ph.D. dissertation topic: Centers around Assessing the relationship between hate speech and fake news to build a novel explainable system for detecting them from a multimodal text and image perspective. .
+          - Skills Acquired: Statistical, sentiment, and correlation analysis and inferencing, Machine and deep learning for Image and Text processing; Explainable AI, Adversarial ML.
+
+      - job: "Graduate Research Assistant"
+        company: "ABLab"
+        companyUrl: "https://sites.google.com/view/affective-biometrics-lab-resea"
+        date: "May 2020 - May 2024"
+        featuredLink:
+          enable: true
+          url: "https://sites.google.com/view/affective-biometrics-lab-resea"
+        content: |
+          - Created a Microaggression dataset by extracting relevant content from TV shows, Blog posts, and social media.
+          - Mentored 8 student in Research and development. Won Research prizes and competitions.
+
+      - job: "Machine Learning Engineering Intern"
+        company: "Apple"
+        date: "June 2023 - August 2023"
+        content: |
+         - Build a system for evaluating Siri dialogues integration with LLM.
+         - Skills acquired: Python; data extraction and preprocessing, Software creation, Testing, Error Handling, and debugging; Version control and code management; Data Serialization and Parsing using NLP; API integration, request and response handling, Software Documentation, Prompt Engineering, Generative AI and LLM.
+
+      - job: "Web development Apprentice"
+        company: "Bloomberg"
+        date: "June 2021 - August 2021"
+        featuredLink:
+          enable: true
+          url: "https://github.com/Bloomberg-Summer-BEST/best-summer-project"
+        content: |
+          - Designed and built a website, “HBCU Tech Journeys” to help HBCU students network, and collaborate.
+          - Skills acquired: CSS, HTML, Web Design, and Hosting: WordPress and GitHub Pages.    
+
+      - job: "Data Scientist Intern"
+        company: "Amazon"
+        date: "August 2019 - November 2020"
+        content: |
+          - Build a customer subscription database using DataGrip to decide on subscription services available to customers, thus reducing inquiry and operation time by 20% as compared to standard web scraping techniques
+          - Annotated data used to create the multiclass dataset and Used it to build model for assessing customer sentiment thus facilitating user satisfaction and retention
+      
+      - job: "Kaggle conpetitor and content creator"
+        company: "Kaggle"
+        date: "June 2020 - present"
+        featuredLink:
+          enable: true
+          url: "https://www.kaggle.com/mikelkn"
+        content: |
+          - Women in Data Science Datathon (2024): Equity in HealthCare: Task to predict if the patients received metastatic cancer diagnosis within 90 days of screening.  Used ML-based data cleaning and supervised ML -CatBoosting Model. (Rank: top 35%).
+          - Santander Customer Transaction Prediction (2019): for predicting if a customer will make a transaction. Used the Light gradient boosting method with 15-fold cross-validation and achieved a score of 90.07%. (Rank: Top 37%).
+          - Women in Data Science Datathon (2019): An image classification problem to determining the chances of deforestation due to oil palm fields. Used Deep and Transfer learning techniques yield 79% prediction accuracy. (Rank: top 87%).    
+
+  # Education
+  education:
+    enable: true
+    title: "Education 🎓"
+    index: false
+    items:
+      - title: "PHD Computer Science"
+        school:
+          name: "Howard University"
+          url: "https://howard.edu/"
+        date: "Ungoing"
+        GPA: "3.7/4.0 (currently)"
+        content: |-
+          Research Focus
+            - Human Centered AI
+            - Machine Learning
+            - Natural Language Processing
+            - AI for Social good
+      - title: "Masters of Science in Computer Science"
+        school:
+          name: "Howard University"
+          url: "https://howard.edu/"
+        GPA: "3.6/ 4.0"
+        content: |-
+          I Published One papers in the Association for the Advancement of AI titled " [ABL-Micro: Opportunities for Affective AI Built Using a Multimodal Microaggression Dataset](https://ceur-ws.org/Vol-2897/AffconAAAI-21_paper3.pdf)"
+
+      - title: "Bachelor of Science in Computer Science"
+        school:
+          name: "University Of Buea"
+          url: "https://www.ubuea.cm/"
+        GPA: "Second Class Upper"
+
+  #Contact
+  contact:
+    enable: true
+    title: "Contact 📧"
+    content: My inbox is always open. Have a question?, Wanna collaborate? or Wanna say hi?!
+    btnName: Email me
+    btnLink: mailto:mikelkengni@gmail.com
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
+
+  footer:
+    recentPosts:
+      path: "contact"
+      count: 4
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+
+    socialNetworks:
+      github: https://github.com/MikelKN
+      linkedin: https://www.linkedin.com/in/mikelngueajio/
+      Medium: https://medium.com/@MickyDjiof
+      Twitter: https://x.com/KNew_Mikel
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: false
+    readTime:
+      enable: false
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: false
+    favicon: "/fav_mikel.png"
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
