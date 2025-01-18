@@ -5,6 +5,7 @@ draft: false
 description: "Select Publications"
 ---
 
+- **Mikel K. Ngueajio**, Saurav Aryal, Marcellin Atemkeng, Gloria Washington, and Danda Rawat. 2025. Decoding Fake News and Hate Speech: A Survey of Explainable AI Techniques: A Survey of Explainable AI Techniques. ACM Comput. Surv. Just Accepted (January 2025). https://doi.org/10.1145/3711123
 - **Ngueajio, K. M**, Washington, G., Rawat, D.B., Ngueabou, Y. (2023). Intrusion Detection Systems Using Support Vector Machines on the KDDCUP’99 and NSL-KDD Datasets A Comprehensive Survey. In Arai, K. (eds) Intelligent Systems and Applications. IntelliSys 2022. Lecture Notes in Networks and Systems, vol 543. Springer, Cham. [PDF](https://scholar.google.com/scholar_url?url=https://arxiv.org/pdf/2209.05579&hl=en&sa=T&oi=gsb-gga&ct=res&cd=0&d=195614842355485312&ei=sRl4Z5qLG4qay9YP7vuXyQg&scisig=AFWwaeYCTP5gj7wsrNarmJi1q3Wv) 
 - Aryal, S., **Ngueajio, M. K.**, Aryal, S. K., & Washington, G. (2023, June). Hey, Siri! why are you biased against women? (student abstract). In Proceedings of the AAAI Conference on Artificial Intelligence. [PDF](https://doi.org/10.1609/aaai.v37i13.26937)
 - **Ngueajio, M. K.**, & Washington, G. J. (2023, June). Explainable Microaggression Detector for Improving Doctor–Patient Interactions. In 2023 IEEE 11th International Conference on Healthcare Informatics (ICHI). IEEE. [PDF](https://ieeexplore.ieee.org/abstract/document/10337102)
