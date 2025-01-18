@@ -6,7 +6,11 @@
     <description>Recent content in Updates 📋 on Mikel&#39;s New Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+<<<<<<< HEAD
     <lastBuildDate></lastBuildDate>
     <atom:link href="https://mikelkn.github.io/updates/index.xml" rel="self" type="application/rss+xml" />
+=======
+    <atom:link href="http://localhost:1313/updates/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> origin/main
   </channel>
 </rss>

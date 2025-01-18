@@ -176,9 +176,11 @@ params:
     title: "Accomplishments 🎯"
     image: "nvidia.JPG"
     content: |-
+      First Time Journal publication at the ACM Csur journal. Access [here](https://dl.acm.org/doi/10.1145/3711123) 
+
       Selected as [Machine Learning ad Systems Rising Star by ML Commons 2024](https://mlcommons.org/2024/06/2024-mlc-rising-stars/). Presented research at Nvidia HQ in Santa Clara, CA.      
 
-      Amazon AWS [PHD Research Fellowship](https://www.amazon.science/news-and-features/amazon-and-howard-university-announce-inaugural-fellowship-gift-project-recipients) recipient 2023-2024; Awarded 69,000 for developing my PhD idea
+      Amazon AWS [PHD Research Fellowship](https://www.amazon.science/news-and-features/amazon-and-howard-university-announce-inaugural-fellowship-gift-project-recipients) recipient 2023-2024; Awarded 69,000 for PHD research advancement.
 
       [APPLE TMCF](https://www.tmcf.org/students-alumni/corp-scholar-programs/apple-hbcu-scholars/) Scholarship Recipient 2023-2024: Awarded $15000 for PHD research advancement.
 
@@ -191,8 +193,6 @@ params:
       First Place Innovator Award Recipient at the [2021 CMD-IT Innovation Challenge](https://cmd-it.org/2021-news/2021-cmd-it-innovation-challenge-award-winners/)
 
       First place Research Poster Winner at the [2021 CCSC-Eastern Regional Conference](https://sites.google.com/site/ccsceastern/Home?authuser=0)
-
-      First place Research Poster Winner at the [2021 CCSC-Mid-Atlantic Regional Conference](https://sites.google.com/site/ccscmidatlantic/home)
 
   # Experience
   experience:
